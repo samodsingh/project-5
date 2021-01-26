@@ -1,0 +1,117 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(110deg, #f93d66, #6d47d9);
+    box-sizing: border-box;
+}
+.terry{
+    width: 40%;
+    background-color: #ffc107;
+    color: black;    
+    padding: 5px;
+
+}
+.preety{
+    color: black;
+    background-color:#ffc107 ;        
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    
+}
+.back-image{
+    text-align: center;
+    color: whitesmoke;
+    height: 400px;
+    background-image: url(./image/image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tacos{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    height: 190px;
+    padding: auto;
+    margin: auto;
+}
+.kambucha{
+    text-align: center;
+    font-size: 40px;
+    height: 190px;
+    margin: auto;
+    padding: auto;
+}
+
+
+.bgcolor{
+    border: 2px solid red;
+    color: red;
+    background-image: linear-gradient( to right, red,yellow);
+}
+.bgcolor-1{
+    width: 50%;
+    height: 10px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right,rgb(182, 32, 32),rgb(243, 243, 182));
+}
+
+.back-image-2{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(./image/image-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgcolor-2{
+    width: 50%;
+    height: 10px;
+    margin-top: 20px;
+    background-image: linear-gradient(to left, rgb(165, 22, 22),rgb(247, 247, 167));
+}
+.teligram{
+    font-size: 25px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.fearure-taco p{
+    font-size: 20px;
+    color: black;
+    font-family:cursive;
+    text-align: justify;
+}
+.featured{
+    margin-top: 40px;
+    font-family: cursive;
+    text-align: justify;
+}
+.main{
+    margin: auto;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+img{
+    width: 100%;
+
+}
+img:hover{
+    transform: scale(2,2);
+    transition: .3s transform;
+}
